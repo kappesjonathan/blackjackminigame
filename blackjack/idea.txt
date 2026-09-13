@@ -1,0 +1,29 @@
+Lo que que quiero hacer es un minijuego de blackjack, o bien simular un juego de blackjack.
+
+¿Cómo funciona el juego?
+El juego consta de un maso o varios de cartas que van a ser repartidas aleatoriamente
+La idea principal del juego es acercarce lo MÁXIMO POSIBLE a 21 PUNTOS sin pasarse.
+
+PASOS
+1. Apuestas la cantidad deseada.
+2. El dealer te reparte una carta a ti y una a el mismo (dicha carta puede o no repetirse)
+3. Decides en base al valor de tu carta, si pedir otra carta o quedarte. (Los valores van sumandose)
+4. Si decides quedarte (ya sea con una o mas cartas), el dealer comienza a darse cartas
+hasta que llegue o pase 17 puntos. O te gane.
+
+MAZO
+El maso de cartas utilizado bj es baraja inglesa, contiene 52 cartas descontando los comodines.
+Son 52 cartas, 13 de cada palo (Pica, corazon, diamante, trebol)
+4 de cada una: As, 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K
+
+Para programar un mazo, necesito meter cada unas de las cartas, como en una lista, y quitar esta
+cuando sea repartida.
+
+BILLETERA.
+Tengo que programar una billetera que va a entrar con unos fondos iniciales.
+Cuyos fondos van a ser usados para apostar. 
+1. Realizo la apuesta.
+2. Si la apuesta es menor o igual a mi billetera sigo:
+3. Se descuenta la plata de mi billetera y comienza el juego.
+
+2b. Si la apuesta es mayor a mi billetera, no puedo apostar.
