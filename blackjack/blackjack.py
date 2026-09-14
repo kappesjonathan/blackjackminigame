@@ -72,13 +72,15 @@ def bjgame():
     
     print("Dealer's hand: ", dealer_hand, dealer_points)
 
-#MENU TEXTO INTERACTIVO
-print("1. Iniciar Juego")
-print("2. Cerrar")
-while True:
-    user_choice = int(input("¿? "))
-    if user_choice == 1:
-        bjgame()
-    elif user_choice == 2:
-        break
+# Permite importar este módulo desde la interfaz gráfica sin iniciar
+# el menú de consola automáticamente.
+if __name__ == '__main__':
+    print("1. Iniciar Juego")
+    print("2. Cerrar")
+    while True:
+        user_choice = int(input("¿? "))
+        if user_choice == 1:
+            bjgame()
+        elif user_choice == 2:
+            break
 
